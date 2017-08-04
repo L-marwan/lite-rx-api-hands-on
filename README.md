@@ -1,10 +1,10 @@
-#Personal Notes : 
+# Personal Notes : 
  - The first 4 parts were fairely straight forward since I already had an idea of streams and read a few articles about reactive programming.
  - The later parts got a bit tricky since I hade no knowledge of the existance of some operations, and it was a nice chance to read the docs about them.
  - still need to read more indepth into this, and get used to it, over all I find this very interesting.
 
 
-#####original readme:
+##### original readme:
 # Lite Rx API Hands-on
 
 This Hands-on is designed to help you to learn easily the lite Rx API provided by [Reactor Core 3.x](https://github.com/reactor/reactor-core/).
