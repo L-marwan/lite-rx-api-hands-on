@@ -24,6 +24,8 @@ import io.pivotal.literx.repository.ReactiveUserRepository;
 import io.reactivex.Flowable;
 import io.reactivex.Observable;
 import io.reactivex.Single;
+import io.reactivex.internal.operators.flowable.FlowableFromPublisher;
+
 import org.reactivestreams.Publisher;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -47,7 +49,7 @@ public class Part09Adapt {
 
 	// TODO Adapt Flux to RxJava Flowable
 	Flowable<User> fromFluxToFlowable(Flux<User> flux) {
-		return null;
+		return Flowable.fromPublisher(flux);
 	}
 
 	// TODO Adapt RxJava Flowable to Flux
